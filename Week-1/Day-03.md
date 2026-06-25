@@ -2,7 +2,7 @@
 
 ## Objective
 
-To understand Python operators and decision-making statements. Learn how to perform calculations, compare values, evaluate logical conditions, and control the flow of program execution using conditional statements.
+To understand Python operators, decision-making statements, loops, and functions. Learn how to perform calculations, compare values, evaluate logical conditions, automate repetitive tasks, and write reusable code using functions. These concepts complete the fundamentals of Python programming.
 
 ---
 
@@ -129,9 +129,7 @@ else:
     print("Grade D")
 ```
 
-### Nested if Statements
-
-An if statement inside another if statement.
+### Nested if Statement
 
 ```python
 age = 20
@@ -139,6 +137,98 @@ age = 20
 if age >= 18:
     if age < 65:
         print("Adult")
+```
+
+---
+
+## Loops
+
+Loops execute a block of code repeatedly until a condition is satisfied.
+
+### for Loop
+
+The `for` loop is used to iterate over sequences such as lists, tuples, strings, and ranges.
+
+```python
+for item in sequence:
+    # code
+```
+
+### The `range()` Function
+
+The `range()` function generates a sequence of numbers.
+
+```python
+range(start, stop, step)
+```
+
+* `start` is optional.
+* `stop` is mandatory.
+* `step` is optional.
+
+---
+
+## Functions
+
+A function is a reusable block of code that performs a specific task.
+
+### Syntax
+
+```python
+def function_name():
+    # code
+```
+
+---
+
+## Return Statement
+
+The `return` statement sends a value back to the function caller.
+
+```python
+def add(a, b):
+    return a + b
+```
+
+---
+
+## Variable Scope
+
+Variables can be classified based on where they are declared.
+
+* **Local Variables** are declared inside a function.
+* **Global Variables** are declared outside all functions.
+
+---
+
+## *args
+
+`*args` allows a function to accept multiple positional arguments.
+
+```python
+def add_numbers(*numbers):
+    print(sum(numbers))
+```
+
+---
+
+## **kwargs
+
+`**kwargs` allows a function to accept multiple keyword arguments.
+
+```python
+def build_profile(**user_info):
+    print(user_info)
+```
+
+---
+
+## Lambda Functions
+
+Lambda functions are anonymous functions used for short expressions.
+
+```python
+square = lambda x: x * x
 ```
 
 ---
@@ -274,21 +364,136 @@ else:
     print("100 percent Scholarship")
 ```
 
+### Sum of Even Numbers Using a Loop
+
+```python
+total = 0
+
+for i in range(0, 10000, 2):
+    total += i
+
+print(total)
+```
+
+### Prime Numbers from 1 to 100
+
+```python
+for num in range(1, 101):
+
+    if num % 2 == 0 and num != 2:
+        continue
+
+    for i in range(3, num, 2):
+        if num % i == 0:
+            break
+    else:
+        print(num)
+```
+
+### Sum of Even Numbers Until Total Reaches 150
+
+```python
+total = 0
+
+for num in range(2, 51, 2):
+
+    if total < 150:
+        total += num
+        last_even = num
+
+print(last_even)
+print(total)
+```
+
+### Numbers Not Divisible by 3 or 5
+
+```python
+for num in range(1, 20):
+
+    if num % 3 == 0 or num % 5 == 0:
+        continue
+
+    print(num)
+```
+
+### Function with Return Statement
+
+```python
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+
+print(result)
+```
+
+### Using *args
+
+```python
+def add_numbers(*numbers):
+    print(sum(numbers))
+
+add_numbers(5, 10, 15, 20)
+```
+
+### Building a User Profile Using **kwargs
+
+```python
+def build_profile(name="Not Available",
+                  age="Not Available",
+                  city="Not Available",
+                  **user_info):
+
+    profile = {}
+
+    profile["Name"] = name
+    profile["Age"] = age
+    profile["City"] = city
+
+    for key, value in user_info.items():
+        profile[key] = value
+
+    return profile
+
+
+user = build_profile(
+    age=20,
+    city="Ludhiana",
+    course="B.Tech CSE",
+    college="GNDEC",
+    skills=["Python", "Java", "SQL"],
+    cgpa=8.9
+)
+
+print(user)
+```
+
+### Lambda Function
+
+```python
+square = lambda x: x * x
+
+print(square(5))
+```
+
 ---
 
 ## Learning Outcomes
 
 * Learned different categories of Python operators.
-* Performed arithmetic and logical operations using operators.
-* Understood the difference between equality (`==`) and identity (`is`) operators.
-* Applied membership operators for searching elements in collections.
-* Learned how conditional statements control program flow.
-* Implemented `if`, `if-else`, `if-elif-else`, and nested if statements.
-* Developed practical programs using decision-making concepts.
-* Improved logical thinking and problem-solving skills.
+* Performed arithmetic, comparison, logical, assignment, identity, and membership operations.
+* Understood how conditional statements control the execution flow of a program.
+* Implemented `if`, `if-else`, `if-elif-else`, and nested conditional statements.
+* Learned to automate repetitive tasks using `for` loops and the `range()` function.
+* Understood the concept of functions and code reusability.
+* Used the `return` statement to send values back from functions.
+* Differentiated between local and global variable scope.
+* Implemented flexible functions using `*args` and `**kwargs`.
+* Learned to create anonymous functions using lambda expressions.
+* Strengthened logical thinking by solving practical programming problems.
 
 ---
 
 ## Summary
 
-The third day focused on operators and decision-making in Python. Various operator categories including arithmetic, comparison, logical, assignment, identity, and membership operators were studied and implemented. Conditional statements were used to build practical applications such as email validation, leap year checking, age classification, scholarship eligibility, and calculator programs. These concepts are fundamental for developing interactive and intelligent Python applications and serve as the basis for more advanced programming constructs such as loops, functions, and object-oriented programming.
+The third day completed the core Python programming concepts by covering operators, conditional statements, loops, functions, variable scope, `*args`, `**kwargs`, and lambda functions. Multiple practical programs were implemented to strengthen problem-solving skills and understand real-world applications of Python. With the completion of these topics, the Python fundamentals required for Data Science have been covered, providing a strong foundation for learning libraries such as NumPy, Pandas, Matplotlib, and Scikit-learn in the upcoming sessions.
