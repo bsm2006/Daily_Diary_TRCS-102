@@ -1,5 +1,7 @@
 # Week 4 – Day 4
 
+**Date: Thursday, 16 July 2026**
+
 # Random Forest: Ensemble Learning, Model Comparison and Feature Importance
 
 ## Objective
