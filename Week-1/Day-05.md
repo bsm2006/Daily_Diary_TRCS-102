@@ -1,5 +1,7 @@
 # Week 1 - Day 5
 
+**Date: Friday, 26 June 2026**
+
 # NumPy Array Manipulation and Operations
 
 ## Objective
