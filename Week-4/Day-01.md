@@ -1,5 +1,7 @@
 # Week 4 - Day 1
 
+**Date: Monday, 13 July 2026**
+
 # Topic: Machine Learning Data Preprocessing and Feature Encoding Using Scikit-learn
 
 ## Objective
