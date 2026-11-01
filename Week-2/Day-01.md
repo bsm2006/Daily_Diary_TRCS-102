@@ -1,5 +1,7 @@
 # Week 2 - Day 1
 
+**Date: Monday, 29 June 2026**
+
 # Advanced NumPy Operations
 
 ## Objective
