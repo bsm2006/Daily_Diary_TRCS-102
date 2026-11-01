@@ -1,5 +1,7 @@
 # Week 4 – Day 5
 
+**Date: Friday, 17 July 2026**
+
 # Deployment of a Machine Learning Application Using Streamlit and Streamlit Community Cloud
 
 ## Objective
