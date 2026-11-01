@@ -1,5 +1,7 @@
 # Week 3 - Day 5
 
+**Date: Friday, 10 July 2026**
+
 # Topic: Advanced Data Visualization Using Seaborn and Introduction to Machine Learning
 
 ## Objective
