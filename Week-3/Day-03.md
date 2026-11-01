@@ -1,5 +1,7 @@
 # Week 3 - Day 3
 
+**Date: Wednesday, 8 July 2026**
+
 # Topic: Statistical Data Visualization Using Histograms, Boxplots, and Subplots
 
 ## Objective
