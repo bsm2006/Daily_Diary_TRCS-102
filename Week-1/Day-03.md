@@ -1,5 +1,7 @@
 # Day 03
 
+**Date: Wednesday, 24 June 2026**
+
 ## Objective
 
 To understand Python operators, decision-making statements, loops, and functions. Learn how to perform calculations, compare values, evaluate logical conditions, automate repetitive tasks, and write reusable code using functions. These concepts complete the fundamentals of Python programming.
