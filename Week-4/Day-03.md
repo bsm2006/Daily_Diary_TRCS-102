@@ -1,5 +1,7 @@
 # Week 4 – Day 3
 
+**Date: Wednesday, 15 July 2026**
+
 # Decision Trees: Understanding, Implementation and Evaluation
 
 ## Objective
