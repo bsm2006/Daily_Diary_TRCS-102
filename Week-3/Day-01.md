@@ -1,5 +1,7 @@
 # Week 3 - Day 1
 
+**Date: Monday, 6 July 2026**
+
 # Topic: Data Encoding and Data Cleaning Using Pandas
 
 ## Objective
