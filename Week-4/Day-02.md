@@ -1,5 +1,7 @@
 # Week 4 - Day 2
 
+**Date: Tuesday, 14 July 2026**
+
 # Topic: Machine Learning Model Development Using Linear Regression and Logistic Regression
 
 ## Objective
