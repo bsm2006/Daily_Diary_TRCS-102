@@ -1,5 +1,7 @@
 # Week 3 - Day 4
 
+**Date: Thursday, 9 July 2026**
+
 # Topic: Categorical Data Visualization Using Seaborn
 
 ## Objective
