@@ -1,5 +1,7 @@
 # Day 1: Introduction to Data Science and Python Fundamentals
 
+**Date: Monday, 22 June 2026**
+
 # Module 1: Introduction to Data Science
 
 ## What is Data Science?
