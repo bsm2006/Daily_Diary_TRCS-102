@@ -1,5 +1,7 @@
 # Week 2 - Day 3
 
+**Date: Wednesday, 1 July 2026**
+
 # Topic: Exploratory Data Analysis Using Pandas
 
 ## Objective
