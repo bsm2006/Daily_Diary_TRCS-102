@@ -1,5 +1,7 @@
 # Week 2 - Day 2
 
+**Date: Tuesday, 30 June 2026**
+
 # Introduction to Pandas
 
 ## Objective
