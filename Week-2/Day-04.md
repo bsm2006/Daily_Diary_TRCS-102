@@ -1,5 +1,7 @@
 # Week 2 - Day 4
 
+**Date: Thursday, 2 July 2026**
+
 # Topic: Data Quality Assessment and Data Validation Using Pandas
 
 ## Objective
