@@ -1,5 +1,7 @@
 # Day 02
 
+**Date: Tuesday, 23 June 2026**
+
 ## Objective
 
 To understand Python data structures and learn how to store, access, modify, organize, and manipulate data efficiently using Lists, Tuples, Dictionaries, and Sets. These data structures form the foundation of data handling and are widely used in Data Science, Machine Learning, and Software Development.
