@@ -1,4 +1,6 @@
 # Week 1 - Day 4
+
+**Date: Thursday, 25 June 2026**
 ## Topic: Introduction to NumPy
 
 ### Objective
