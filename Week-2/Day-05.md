@@ -1,5 +1,7 @@
 # Week 2 - Day 5
 
+**Date: Friday, 3 July 2026**
+
 # Topic: Feature Engineering Using Pandas and NumPy
 
 ## Objective
