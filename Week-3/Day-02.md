@@ -1,4 +1,6 @@
 # Week 3 - Day 2
+
+**Date: Tuesday, 7 July 2026**
 # Topic: Data Visualization and Revenue Analysis Using Matplotlib
 
 ## Objective
